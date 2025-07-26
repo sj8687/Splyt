@@ -274,6 +274,10 @@ body::-webkit-scrollbar {
 .spin-circle {
   animation: spin 20s linear infinite;
 }
+
+.din-circle {
+  animation: spin 20s linear infinite;
+}
 @keyframes spin {
   from {
     transform: rotate(0deg);

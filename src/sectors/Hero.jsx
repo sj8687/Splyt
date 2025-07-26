@@ -49,7 +49,7 @@ const Hero = () => {
     })
 
     return (
-        <section className="bg-main-bg">
+        <section className="bg-main-bg b">
             <div className="hero-container">
                 <img src="\images\static-img.png" alt="img" className="absolute bottom-0 left-1/2 object-auto scale-100 md:scale-150 -translate-x-1/2" />
             
