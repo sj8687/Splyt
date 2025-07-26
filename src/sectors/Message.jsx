@@ -86,7 +86,7 @@ function Message() {
                             </div>
                         </div>
                         <h1 className="second-message">your future with every
-                            gulp of Perfect Protein</h1>
+                            gulp of Perfect Protein.</h1>
                     </div>
                     <div className="flex-center md:mt-20 mt-10">
                         <div className="max-w-md px-10 flex-center overflow-hidden">
