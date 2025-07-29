@@ -1,6 +1,7 @@
 import ClipPathTitle from "../components/ClipPathTitle"
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import Video from "../components/Video";
 
 const Benifit = () => {
 
@@ -91,7 +92,7 @@ const Benifit = () => {
                 </div>
             </div>
             <div className="relative overlay-box">
-                
+                <Video />
             </div>
         </section>
     )
