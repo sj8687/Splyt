@@ -1,10 +1,17 @@
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
+import { useMediaQuery } from "react-responsive"
 
 
 function Video() {
 
+    const isMobile = useMediaQuery({
+        query:"(max-width:768px)"
+    })
+
+
     useGSAP(()=>{
+        if(!isMobile){
         const tl = gsap.timeline({
             scrollTrigger:{
                 trigger:".vd-pin-section",
@@ -20,11 +27,12 @@ function Video() {
             clipPath:"circle(100% at 50% 50%)",
             ease:"power1.inOut",
         })
+    }
     })
   return (
     <section className="vd-pin-section">
           <div style={{
-            clipPath:"circle(6% at 50% 50%)"
+            clipPath: isMobile ? "circle(100% at 50% 50%)" : "circle(6% at 50% 50%)",
           }} className="size-full video-box">
                <video src="/videos/pin-video.mp4" playInline muted loop autoPlay/>
 
