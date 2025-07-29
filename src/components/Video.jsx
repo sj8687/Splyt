@@ -9,7 +9,7 @@ function Video() {
           <div style={{
 
           }} className="size-full video-box">
-               <Video src="/videos/pin-video.mp4" playInline muted/>
+               <video src="/videos/pin-video.mp4" playInline muted loop autoPlay/>
           </div>
     </section>
   )
