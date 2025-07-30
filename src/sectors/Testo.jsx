@@ -31,6 +31,23 @@ const Testo = () => {
    .to(".testimonials-section .third-title",{
     xPercent:-50,
    },"<")
+
+
+   const pinTl = gsap.timeline({
+    scrollTrigger:{
+      trigger:".testimonials-section",
+      start:"10% top",
+      end:"200% top",
+      scrub:1.5,
+      pin:true
+    }
+   })
+
+   pinTl.from(".vd-card",{
+    yPercent:150,
+    stagger:0.2,
+    ease:"power1.inOut"
+   })
   });
 
   const handlePlay = (index) => {
