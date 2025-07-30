@@ -1,15 +1,12 @@
 
 
 
-
 function Testo() {
-
-  
     
   return (
 
     <section className="testimonials-section">
-        hii
+        hii there
     </section>
 
   )
