@@ -88,9 +88,9 @@ function FlavorSlider() {
                      <div key={flavor.name} className={`relative z-30 lg:w-[50vw] w-96 lg:h-[70vh] md:w-[90vw] md:h-[50vh] h-80 flex-none ${flavor.rotation}`}>
                         <img src={`/images/${flavor.color}-bg.svg`} className="absolute bottom-0"></img>
 
-                        <img src={`/images/${flavor.color}-drink.webp`} alt="" className="drinks"/>
+                        <img src={`/images/${flavor.color}-drink.webp`} alt="fuck" className="drinks"/>
 
-                        <img src={`/images/${flavor.color}-elements.webp`} alt="" className="elements" />
+                        <img src={`/images/${flavor.color}-elements.webp`} alt="fuck" className="elements" />
 
                         <h1>{flavor.name}</h1>
                     </div>
